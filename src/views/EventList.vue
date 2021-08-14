@@ -1,5 +1,5 @@
 <template>
-  <h1>Events For Good</h1>
+  <h1>List of Vaccinated</h1>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
     <div class="pagination">
@@ -20,6 +20,7 @@
       >
         Next Page</router-link
       >
+
     </div>
   </div>
 </template>
@@ -32,6 +33,7 @@ import EventService from '@/services/EventService.js'
 // import { watchEffect } from '@vue/runtime-core' //com
 
 // import axios from 'axios'
+
 export default {
   name: 'EventList',
   props: {
@@ -46,7 +48,8 @@ export default {
   data() {
     return {
       events: null,
-      totalEvents: 0 // <--- Added this to store totalEvents
+      totalEvents: 0, // <--- Added this to store totalEvents
+    
     }
   },
   //add 2.2
