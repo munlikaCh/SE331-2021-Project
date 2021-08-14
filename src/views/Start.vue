@@ -6,7 +6,8 @@
        <img src="https://i2.fpic.cc/file/img-b1/2021/08/14/IMG_2729.md.png" alt="IMG_2729.png" border="0" />
       </div>
 
-        <router-link :to="{ name: 'EventList' }">Home</router-link>
+        <button @click="GoHome"> Click to go to home page </button>
+        <!-- <router-link :to="{ name: 'EventList' }">Home</router-link> -->
   </div>
 </template>
 
@@ -18,8 +19,7 @@ export default {
   methods: {
     GoHome(){
       this.$router.push({
-        name: 'EventList',
-        params: { id: this.event.id }
+        name: 'EventList'
       })
     },
   }
