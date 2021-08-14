@@ -1,6 +1,6 @@
 <template> 
 <div class="sizef">
-  <b>Name:</b>  {{ event.name }}{{ event.surname}} <br>
+  <b>Names:</b>  {{ event.name }}{{ event.surname}} <br>
   <b>Age:</b>  {{ event.age }} <br>
 </div>
   <div id="flashMessage2" v-if="GStore.flashMessage2">
