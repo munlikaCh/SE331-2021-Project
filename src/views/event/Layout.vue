@@ -27,4 +27,7 @@ export default {
 .menub{
   font-size: 18px;
 }
+#nav{
+  text-align: -webkit-center;
+}
 </style>
