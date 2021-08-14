@@ -10,6 +10,9 @@ import NetWorkError from '@/views/NetworkError.vue'
 import NProgress from 'nprogress'
 import EventService from '@/services/EventService.js'
 import GStore from '@/store'
+import DocComm from '@/views/DocComm.vue'
+
+
 //import server from '@/server.js'
 
 const routes = [
@@ -64,6 +67,12 @@ const routes = [
         name: 'EventEdit',
         props: true,
         component: EventEdit
+      },
+      {
+        path: 'dcom',
+        name: 'DocComm',
+        props: true,
+        component: DocComm
       }
     ]
   },
