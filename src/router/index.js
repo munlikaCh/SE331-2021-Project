@@ -11,13 +11,18 @@ import NProgress from 'nprogress'
 import EventService from '@/services/EventService.js'
 import GStore from '@/store'
 import DocComm from '@/views/DocComm.vue'
-
+import Start from '@/views/Start.vue'
 
 //import server from '@/server.js'
 
 const routes = [
   {
     path: '/',
+    name: 'Start',
+    component: Start
+  },
+  {
+    path: '/home',
     name: 'EventList',
     component: EventList,
     props: (route) => ({ page: parseInt(route.query.page) || 1 })

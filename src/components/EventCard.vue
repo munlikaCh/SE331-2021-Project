@@ -8,6 +8,9 @@
       <h4>{{ event.name }}{{ event.surname }}</h4>
       <p>{{ event.status }}</p>
     </div>
+
+
+    
   </router-link>
 </template>
 
