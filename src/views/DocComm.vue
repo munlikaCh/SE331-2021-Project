@@ -4,13 +4,13 @@
   </div>
   <br>
   <form class = "review-form" @submit.prevent ="onSubmit">
-        <h3>Doctor's Comment</h3>
+        <h2>Doctor's Comment</h2>
 
-        <label for="name">Name:</label>
-        <input id="name" v-model="name">
+        <label for="name" style="font-size:18px" >Name:</label>
+        <input id="name" v-model="name" >
         <br>
         <br>
-        <label for="review">Review:</label>
+        <label for="review" style="font-size:18px">Review:</label>
         <textarea id ="review" v-model="review"></textarea>
         <br>
         <br>
@@ -90,6 +90,7 @@ input {
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 label {
@@ -141,7 +142,6 @@ li {
 }
 
 .review-container {
-  
     width: 425px;
     padding: 20px;
     background-color: white;

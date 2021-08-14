@@ -1,12 +1,11 @@
 <template>
-  <h1>WELCOME TO ||| WEBSITE</h1>
+  <h1>WELCOME TO  &nbsp; | | | &nbsp;  WEBSITE</h1>
   <div class="Start">
-    
        <div class="img">
        <img src="https://i2.fpic.cc/file/img-b1/2021/08/14/IMG_2729.md.png" alt="IMG_2729.png" border="0" />
       </div>
 
-        <button @click="GoHome"> Click to go to home page </button>
+        <button class="btstart" @click="GoHome"> Click to go to home page </button>
         <!-- <router-link :to="{ name: 'EventList' }">Home</router-link> -->
   </div>
 </template>
@@ -26,7 +25,7 @@ export default {
 }
 
 </script>
-<style scoped>
+<style>
 .events {
   display: flex;
   flex-direction: column;
@@ -41,7 +40,23 @@ export default {
   text-decoration: none;
   color: #2c3e50;
 }
-
+.btstart{
+    padding: 10px;
+    border: none;
+    background: #8dbfeb;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: inherit;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 20%);
+}
+.btstart:hover{
+    background: #5a92c2;
+}
 #page-prev {
   text-align: left;
 }

@@ -41,8 +41,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-size: full;
 }
-
+html,
+body{
+  background-color: #031016;
+}
+h1{
+  color: whitesmoke;
+  font-family: auto;
+}
 #nav {
   padding: 30px;
 }

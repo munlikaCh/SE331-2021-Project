@@ -28,16 +28,19 @@ export default {
 
 <style scoped>
 .event-card {
+  border-radius: 15px;
   padding: 20px;
   width: 250px;
   cursor: pointer;
-  border: 1px solid #39495c;
+  border: 1px solid #615899bd;
   margin-bottom: 18px;
+  background-color: #9a91dbbd;
+  color: white;
 }
 
 .event-card:hover {
   transform: scale(1.01);
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 12px 0 #7166b6a1;
 }
 
 .event-link {
