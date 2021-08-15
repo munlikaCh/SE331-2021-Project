@@ -132,9 +132,13 @@ export default {
 
 #page-prev {
   text-align: left;
+  color: #ffffff;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #page-next {
   text-align: right;
+  color: #ffffff;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 </style>
