@@ -4,28 +4,26 @@
   </div>
   <br>
   <form class = "review-form" @submit.prevent ="onSubmit">
-        <h2>Doctor's Comment</h2>
-        <label for="name" style="font-size:18px" >Name:</label>
-        <input id="name" v-model="name" >
+        <h2 class="doc">˗ˏˋ Doctor's Comment ˎˊ˗</h2>
+        <label class="doc" for="name" style="font-size:18px" >꒰ ❛ Name: ❜ ꒱</label>
+        <input class="mon" id="name" v-model="name" >
         <br>
         <br>
-        <label for="review" style="font-size:18px">Comment box:</label>
-        <textarea id ="review" v-model="review"></textarea>
+        <label class="doc" for="review" style="font-size:18px">꒰ ❛ Comment: ❜ ꒱</label>
+        <textarea class="mon" id ="review" v-model="review"></textarea>
         <br>
         <br>
+
 <review-list v-if="reviews.length" :reviews="reviews"></review-list>
 <review-form @review-submitted="addReview"></review-form>
+
 <input class="button" type="submit" value="Submit">
         </form>
+        <br>
         <div class="review-container">
-            <h3>Comment:</h3>
-            {{keepTwo}}
+            <h3 class="doc">꒰ ❛ Comment ❜ ꒱</h3>
+            <p class="doc">{{keepTwo}}</p>
           </div>
-  <!-- =========== list ============== -->
-      <!-- <div class="review-container"> -->
-        
-        
-      <!-- </div> -->
 
 </template>
 
@@ -107,6 +105,15 @@ li {
     -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
+.doc {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(124, 185, 255) 0.1em 0.1em 0.2em;
+}
+
+.mon {
+    border-radius: 10px;
+}
+
 
 .product-display {
     display: flex;
@@ -135,9 +142,11 @@ li {
     -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
     box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+    border-radius: 20px;
 }
 
 .review-container {
+    border-radius: 20px;
     width: 425px;
     padding: 20px;
     background-color: white;
