@@ -1,5 +1,5 @@
 # SE331-2021-Project
-__ 🚀💥 WE DON"T KNOW HOW TO USE GITHUB ❗❗__
+__ 🚀💥 WE DON"T KNOW HOW TO USE GITHUB ❗❗__ <br>
 *·˚ Because we haven't learn about how to use github before.✧.*
 
 ˗ˏˋ Member ´ˎ˗
@@ -7,21 +7,21 @@ __ 🚀💥 WE DON"T KNOW HOW TO USE GITHUB ❗❗__
 2. Munlika Chaipradit 622115033
 3. Rattanakorn Rengphian 622115034
 
- ˚🥦 URL web 🧀*･῾
-[SAMNHO](https://se331-2021-project-74271.web.app/)
+ ˚🥦 URL web 🧀*･῾ <br>
+⠀⠀⠀[SAMNHO](https://se331-2021-project-74271.web.app/)
 
-NOTE: 
-We writing code together in Application TeamViewer before
-  🐾 Khwanlada Khampoun 622115005 
-      -> Create API (localhost:5334) to call in EventService.js
-      -> Add data into db.json
+NOTE: <br>
+We writing code together in Application TeamViewer before. <br>
+  🐾 Khwanlada Khampoun 622115005 <br>
+      ⠀-> Create API (localhost:5334) to call in EventService.js <br>
+      ⠀-> Add data into db.json <br>
     
-  🐾 Munlika Chaipradit 622115033 + Rattanakorn Rengphian 622115034
-      -> Link data(API) to show data in website.
-      -> Menu bar 1 (Home|About us)
-      -> Menu bar 2 (Profile|Hometown|Status|Doctor's comment)
-      -> Add title
+  🐾 Munlika Chaipradit 622115033 + Rattanakorn Rengphian 622115034 <br>
+      ⠀-> Link data(API) to show data in website. <br>
+      ⠀-> Menu bar 1 (Home|About us) <br>
+      ⠀-> Menu bar 2 (Profile|Hometown|Status|Doctor's comment) <br>
+      ⠀-> Add title <br>
       
-  🐾 Munlika Chaipradit 622115033 
-      -> create flash message
+  🐾 Munlika Chaipradit 622115033 <br>
+      ⠀-> create flash message <br>
   
