@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Thank for visiting :)</h1>
+    <h1> ° ꔛ 🌷 Thank for visiting ﹆🎟 ꔛ °</h1>
 
       <div class="img">
        <img src="https://i2.fpic.cc/file/img-b1/2021/08/14/IMG_2729.md.png" alt="IMG_2729.png" border="0" />

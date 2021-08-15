@@ -28,14 +28,13 @@ export default {
 
 .event-card {
   border-radius: 8px;
-  border: 1px solid #dadce0;
+  border: 1px solid #5f6368;
   overflow: hidden;
   -webkit-transition: all 0.18s ease;
   transition: all 0.18s ease;
   width: 100%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  /* color: #8ab4f8; */
   text-decoration: none;
   outline: 0;
   text-decoration: none;
@@ -59,8 +58,9 @@ export default {
 }
 
 .event-card:hover {
+  background-color: #2F3034;
   transform: scale(1.01);
-  box-shadow: 0 3px 12px 0 #7166b6a1;
+  /* box-shadow: 0 3px 12px 0 #7166b6a1; */
 }
 
 .event-link {

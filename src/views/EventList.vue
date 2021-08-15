@@ -1,5 +1,5 @@
 <template>
-  <h1>List of Vaccinated</h1>
+  <h1 class="topp">List of Vaccinated</h1>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
     <div class="pagination">
@@ -111,7 +111,10 @@ export default {
 }
 </script>
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+.topp{
+  font-family: auto;
+}
 .events {
   display: flex;
   flex-direction: column;
