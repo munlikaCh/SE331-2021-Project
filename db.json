@@ -40,6 +40,26 @@
         "status": "Vaccined",
         "type": "Astrazeneca",
         "type2": "None"
+    },
+    {
+        "id":"5",
+        "name": "Kim",
+        "surname": " Jisoo",
+        "age": "28",
+        "hometown": "Bangkok",
+        "status": "Vaccined",
+        "type": "Messenger Ribonucleic Acid (mRNA)",
+        "type2": "None"
+    },
+    {
+        "id":"6",
+        "name": "Kim",
+        "surname": " Taehyung",
+        "age": "28",
+        "hometown": "Lamphun",
+        "status": "Vaccined",
+        "type": "Astrazeneca",
+        "type2": "None"
     }
 ] 
 }
