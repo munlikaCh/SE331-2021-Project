@@ -5,7 +5,7 @@
   >
     <div class="event-card">
       <!-- <span>@{{ event.time }} on {{ event.date }}</span> -->
-      <h4>{{ event.name }}{{ event.surname }}</h4>
+      <h4>❝ {{ event.name }}{{ event.surname }} ❞</h4>
       <p>{{ event.status }}</p>
     </div>
   </router-link>

@@ -1,6 +1,6 @@
 <template> 
 <div class="sizef">
-  <b>Name:</b>  {{ event.name }}{{ event.surname}} <br>
+  <b>Name: </b>  {{ event.name }}{{ event.surname}} <br>
   <b>Age:</b>  {{ event.age }} <br>
 </div>
   <!-- <img v-bind:src="'data:@/src/assets/piclogo.png'"> -->

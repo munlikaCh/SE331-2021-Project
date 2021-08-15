@@ -4,14 +4,14 @@
   </div>
   <br>
   <form class = "review-form" @submit.prevent ="onSubmit">
-        <h2>Doctor's Comment</h2>
+        <h2 class="doc">˗ˏˋ Doctor's Comment ˎˊ˗</h2>
 
-        <label for="name" style="font-size:18px" >Name:</label>
-        <input id="name" v-model="name" >
+        <label class="doc" for="name" style="font-size:18px" > ꒰ ❛ Name: ❜ ꒱</label>
+        <input class="mon" id="name" v-model="name" >
         <br>
         <br>
-        <label for="review" style="font-size:18px">Review:</label>
-        <textarea id ="review" v-model="review"></textarea>
+        <label  class="doc" for="review" style="font-size:18px">꒰ ❛ Review: ❜ ꒱</label>
+        <textarea class="mon" id ="review" v-model="review"></textarea>
         <br>
         <br>
 
@@ -20,7 +20,7 @@
   <!-- <button @click="register"> Register Me </button> -->
   <!-- =========== list ============== -->
       <!-- <div class="review-container"> -->
-        <h3>Reviews:</h3>
+        <h3> ꒰ ❛ Reviews: ❜ ꒱</h3>
         <ul>
             <li v-for="(review, index) in reviews" :key="index">
             {{review.name}}
@@ -85,6 +85,14 @@ export default {
   animation-name: redfade;
   animation-duration: 5s;
 }
+.doc {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(124, 185, 255) 0.1em 0.1em 0.2em;
+}
+
+.mon {
+    border-radius: 10px;
+}
 
 input {
     width: 100%;
@@ -139,6 +147,7 @@ li {
     -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
     box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+    border-radius: 20px;
 }
 
 .review-container {
