@@ -8,9 +8,6 @@
       <h4>{{ event.name }}{{ event.surname }}</h4>
       <p>{{ event.status }}</p>
     </div>
-
-
-    
   </router-link>
 </template>
 
@@ -27,15 +24,38 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 .event-card {
-  border-radius: 15px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  overflow: hidden;
+  -webkit-transition: all 0.18s ease;
+  transition: all 0.18s ease;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  /* color: #8ab4f8; */
+  text-decoration: none;
+  outline: 0;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  position: relative;
+  background-color: #202124;
+  color: #e8eaed;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: normal;
+  margin-bottom: 12px;
+  min-width: 280px;
+  /* border-radius: 15px;
   padding: 20px;
   width: 250px;
   cursor: pointer;
   border: 1px solid #615899bd;
   margin-bottom: 18px;
   background-color: #9a91dbbd;
-  color: white;
+  color: white; */
 }
 
 .event-card:hover {

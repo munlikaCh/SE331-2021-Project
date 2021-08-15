@@ -1,11 +1,13 @@
 <template>
-  <h1>WELCOME TO  &nbsp; | | | &nbsp;  WEBSITE</h1>
+  <h1>WELCOME TO </h1>  
   <div class="Start">
        <div class="img">
-       <img src="https://i2.fpic.cc/file/img-b1/2021/08/14/IMG_2729.md.png" alt="IMG_2729.png" border="0" />
+        <img class="imgp" src="https://i2.fpic.cc/file/img-b1/2021/08/14/IMG_2729.md.png" alt="IMG_2729.png" border="0" />
       </div>
-
-        <button class="btstart" @click="GoHome"> Click to go to home page </button>
+  <!-- <h1>WEBSITE</h1> -->
+  <p class="subtit">This website is about the COVID-19 vaccine that will show who has been vaccinated.</p>
+  <br><br><br><br>
+      <button class="btstart" @click="GoHome"> Click to go to home page </button>
         <!-- <router-link :to="{ name: 'EventList' }">Home</router-link> -->
   </div>
 </template>
@@ -26,10 +28,21 @@ export default {
 
 </script>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.subtit{
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
 .events {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.imgp{
+  max-width: 100%;
+  height: auto!important;
 }
 .pagination {
   display: flex;

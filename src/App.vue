@@ -45,7 +45,7 @@ export default {
 }
 html,
 body{
-  background-color: #031016;
+  background-color: #202124;
 }
 h1{
   color: whitesmoke;
